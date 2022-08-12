@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto; 
+}
+
+body{
+    background-color: #FAFAFA;
+}
+
+.slider{
+    width: 1100px;
+    height: 280px;
+    background-color: rgba(221, 208, 22, 0.781);
+    margin: 100px 100px;
+}
+
+/* small boxes */
+.small-boxes{
+    display: flex;
+
+}
+
+.box-1{
+    display: flex;
+    align-items: center;
+    width: 277px;
+    height: 90px;
+    background-color: #d8dfcf;
+    border-radius: 10px;
+}
+
+.box-1 img{
+    background-color: #E3F0D4;
+    padding: 10px;
+    border-radius: 6px;
+    margin-right: 26px;
+}
