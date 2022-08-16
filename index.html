@@ -35,18 +35,74 @@
             <div>
                 <nav>
                     <ul>
-                        <li>
-                            <a href="#">მთავარი</a>
-                            <a href="aboutus.html">ჩვენ შესახებ</a>
-                            <a href="contact.html">კონტაქტი</a>
+                        <li class="slider-pages">
+                            <a  class="slider-pages active" href="index.html">მთავარი</a>
+                            <a class="slider-pages" href="aboutus.html">ჩვენ შესახებ</a>
+                            <a class="slider-pages" href="contact.html">კონტაქტი</a>
                         </li>
                     </ul>
                 </nav>
             </div>
-            <section class="slider">
-                <img class="dog-picture" src="images/—Pngtree—sit down pet dog waleski_6249005.png" alt="dog">
 
-            </section>
+            <!-- slider -->
+            <div class="pic-content slider">
+                <div class="slider-wrapper">
+                    <div class="slider-item active">
+                        <img class="animal-photo dog" src="images/—Pngtree—sit down pet dog waleski_6249005.png" />
+                        <div class="slider-content">
+                            <h4>
+                                მიიღე 30%-იანი ფასდაკლება პედიგრის ნებისმიერ პროდუქციაზე
+                            </h4>
+                            <button>შეიძინე ეხლავე</button>
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <img  class="animal-photo rabbit" src="images/shutterstock_1290392257.png" />
+                        <div class="slider-content">
+                            <h4>
+                                ყველაფერი მღრნელებისთვის. მიიღე 30%-იანი ფასდაკლება ნებისმიერ პროდუქციაზე
+                            </h4>
+                            <button>შეიძინე ეხლავე</button>
+                            <!-- <div class="slider-lines">
+                                <div class="slider-line active"></div>
+                                <div class="slider-line"></div>
+                                <div class="slider-line"></div>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <img  class="animal-photo turtle" src="images/shutterstock_263854013.png" />
+                        <div class="slider-content">
+                            <h4>
+                                100% ნატურალური პროდუქცია შენი საუკეთესო მეგობრისათვის
+                            </h4>
+                            <button>შეიძინე ეხლავე</button>
+                            <!-- <div class="slider-lines">
+                                <div class="slider-line active"></div>
+                                <div class="slider-line"></div>
+                                <div class="slider-line"></div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-btns">
+                    <button id="prev-slide-btn">
+                        <img class="arrow" src="images/left.png" alt="arrow">
+                    </button>
+                    <button id="next-slide-btn">
+                        <img class="arrow" src="images/arrow-right.png" alt="arrow">
+                    </button>
+                </div>
+                
+                <!-- <div class="slider-lines">
+                    <div class="slider-line"></div>
+                    <div class="slider-line"></div>
+                    <div class="slider-line"></div>
+                </div> -->
+            </div>
 
             <section class="small-boxes">
                 <div class=" box box-1">
@@ -81,6 +137,7 @@
                         <button>პროდუქციის ნახვა</button>
 
                     </div>
+                    <img class="small-dog" src="images/—Pngtree—dog pet_6249033.png" alt="dog picture">
                 </div>
                 <div class="three-color-blocks">
                     <div class="two-next-blocks">
@@ -116,6 +173,8 @@
                             </div>
                             <button>პროდუქციის ნახვა</button>
                         </div>
+                        <img class="cat-picture" src="images/—Pngtree—cat in transparent background_5798080.png" alt="cat picture">
+                        <img class="cat-picture-2" src="images/—Pngtree—a tabby cat approaching step_5803656.png" alt="cat picture">
                     </div>
                 </div>
             </section>
@@ -194,15 +253,12 @@
                             <button>400გრ.</button>
                             <button id="dark-btn">8 კგ.</button>
                         </div>
-                        <!-- <div class="prices last-price orange-btn">
-                            <span class="current-price second-price" id="dif">135 ₾</span>
-                            <button class="added-btn">დამატებულია</button>
-                        </div> -->
 
                         <div class="prices btn-orange">
-                            <span class="current-price second-price">140.45 ₾</span>
+                            <span class="current-price second-price">140.45₾</span>
+                            <button class="added-btn">დამატებულია</button>
                         </div>
-                        <button class="added-btn">დამატებულია</button>
+                       
 
                         
                        
@@ -216,6 +272,18 @@
                     <div class="first-of-three">
                         <h3>გამოიყენე ჩვენი, <div class="dif-letters">
                             <span class="letr-z">ზ</span><span class="letr-o">ო</span><span class="letr-o-2">ო</span><span class="letr-t">ტ</span><span class="letr-o-3">ო</span><span class="letr-p">პ</span><span class="letr-i">ი</span><span class="letr-a">ა</span><span class="letr-s">ს</span> ბარათი </div></h3>
+                        <div class="card">
+                            <img src="images/ზოოტოპია ქართული 2.png" alt="logo">
+                            <span>
+                                ზოო მაღაზია
+                            </span>
+                        </div>
+                        <div class=" card card-second">
+                            <img src="images/ზოოტოპია ქართული 2.png" alt="logo">
+                            <span>
+                                ზოო მაღაზია
+                            </span>
+                        </div>
                     </div>
 
                     <div class="first-of-three second-of-three">
@@ -229,13 +297,20 @@
 
                     <div class="first-of-three third-of-three">
                         <span id="most-sold" class="most-sold">ყველაზე გაყიდვადი პროდუქცია</span>
-                        <div class="arrow-btns">
-                            <img class="ar-right" src="images/arrow-long-right.png" alt="arrow icon">
-                            <img id="pedigri" src="images/pedigri.jpg" alt="pedigri">
-                            <img class="ar-left" src="images/arrow-long-right.png" alt="arrow icon">
+                        <div class="pedigri-price">
+                            <span>135 ₾</span>
+                            <span id="old-price">160 ₾</span>
+                            <div id="line" ></div>
                         </div>
-                        <span>პედიგრი</span>
-                        <button>პროდუქციის ნახვა</button>
+                        <div class="arrow-btns">
+                            <img id="arrow" src="images/left.png" alt="arrow icon">
+                            <img id="pedigri" src="images/pedigri.jpg" alt="pedigri">
+                            <img id="arrow" src="images/arrow-right.png" alt="arrow icon">
+                        </div>
+                        <div class="third-block-content">
+                            <span>პედიგრი</span>
+                            <button>პროდუქციის ნახვა</button>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -266,7 +341,7 @@
                         <div class="prices">
                             <span class="current-price">135.30 ₾</span>
                             <span class="old-price">160.30 ₾</span>
-                            <div class="line"></div>
+                            <div class="line line2"></div>
                         </div>
                         <img  class="cart" src="images/shop.png" alt="icon">
                     </div>
@@ -314,10 +389,11 @@
                             <button>400გრ.</button>
                             <button id="dark-btn">8 კგ.</button>
                         </div>
-                        <div class="prices last-price">
+                        <div class="prices dif-cart">
                             <span class="current-price second-price">135 ₾</span>
                         </div>
-                        <img class="cart"  src="images/shop.png" alt="icon">
+                        <img class="cart" src="images/shop.png" alt="icon">
+                       
                     </div>
                 </div>
             </section>
@@ -414,5 +490,6 @@
             </div>
         </div>
     </footer>
+    <script src="app.js"></script>
 </body>
 </html>
