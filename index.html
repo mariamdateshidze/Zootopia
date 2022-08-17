@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/fonts.css">
     <title>Zootopia</title>
 </head>
 <body>
     <header class="container">
         <div class="header-content" >
-           <img src="images/ზოოტოპია ქართული 2.png" alt="logo">
+            <a href="index.html"><img src="images/ზოოტოპია ქართული 2.png" alt="logo"></a>
            <div class="burger-menu">
                 <img src="images/menu (1).png" alt="burger menu">
             </div>
@@ -21,6 +22,7 @@
                 </div>
                 <div class="header-icons">
                     <img src="images/shopping-cart.png" alt=" cart icon">
+                    <span id="thirteen">13</span>
                     <span>კალათა</span>
                 </div>
                 <div class="header-icons">
@@ -50,9 +52,9 @@
                     <div class="slider-item active">
                         <img class="animal-photo dog" src="images/—Pngtree—sit down pet dog waleski_6249005.png" />
                         <div class="slider-content">
-                            <h4>
+                            <span>
                                 მიიღე 30%-იანი ფასდაკლება პედიგრის ნებისმიერ პროდუქციაზე
-                            </h4>
+                            </span>
                             <button>შეიძინე ეხლავე</button>
                         </div>
                     </div>
@@ -60,30 +62,20 @@
                     <div class="slider-item">
                         <img  class="animal-photo rabbit" src="images/shutterstock_1290392257.png" />
                         <div class="slider-content">
-                            <h4>
+                            <span>
                                 ყველაფერი მღრნელებისთვის. მიიღე 30%-იანი ფასდაკლება ნებისმიერ პროდუქციაზე
-                            </h4>
+                            </span>
                             <button>შეიძინე ეხლავე</button>
-                            <!-- <div class="slider-lines">
-                                <div class="slider-line active"></div>
-                                <div class="slider-line"></div>
-                                <div class="slider-line"></div>
-                            </div> -->
                         </div>
                     </div>
 
                     <div class="slider-item">
                         <img  class="animal-photo turtle" src="images/shutterstock_263854013.png" />
                         <div class="slider-content">
-                            <h4>
+                            <span>
                                 100% ნატურალური პროდუქცია შენი საუკეთესო მეგობრისათვის
-                            </h4>
+                            </span>
                             <button>შეიძინე ეხლავე</button>
-                            <!-- <div class="slider-lines">
-                                <div class="slider-line active"></div>
-                                <div class="slider-line"></div>
-                                <div class="slider-line"></div>
-                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -96,12 +88,11 @@
                         <img class="arrow" src="images/arrow-right.png" alt="arrow">
                     </button>
                 </div>
-                
-                <!-- <div class="slider-lines">
-                    <div class="slider-line"></div>
-                    <div class="slider-line"></div>
-                    <div class="slider-line"></div>
-                </div> -->
+            </div>
+            <div class="slider-lines">
+                <div class="slider-line active"></div>
+                <div class="slider-line"></div>
+                <div class="slider-line"></div>
             </div>
 
             <section class="small-boxes">
@@ -180,6 +171,10 @@
             </section>
 
             <!-- top products -->
+            <div>
+                <img class="arrow-white" src="images/arrow-long-right.png" alt="arrow left">
+                <img class="arrow-white arrow-white-right" src="images/arrow-long-right.png" alt="arrow right">
+            </div>
             <section class="top-products-section">
                 <div class="title">
                     <h3>
@@ -292,7 +287,7 @@
                             <span id="big-font">მღრნელებისთვის</span>
                         </div>
                         <button class="prod-btn">პროდუქციის ნახვა</button>
-                        <img class="rabbit-pic" src="images/shutterstock_1290392257.png" alt="">
+                        <img class="rabbit-pic" src="images/shutterstock_1290392257.png" alt="rabbit picture">
                     </div>
 
                     <div class="first-of-three third-of-three">
@@ -303,9 +298,11 @@
                             <div id="line" ></div>
                         </div>
                         <div class="arrow-btns">
-                            <img id="arrow" src="images/left.png" alt="arrow icon">
-                            <img id="pedigri" src="images/pedigri.jpg" alt="pedigri">
-                            <img id="arrow" src="images/arrow-right.png" alt="arrow icon">
+                            <img id="arrow" class="prev-btn" src="images/left.png" alt="arrow icon">
+                            <img id="pedigri" class="active" src="images/pedigri.jpg" alt="pedigri">
+                            <img id="pedigri" class="royal-dog" src="images/royal.jpg" alt="pedigri">
+                            <img id="pedigri" class="royal-dog" src="images/royalc.png" alt="pedigri">
+                            <img id="arrow" class="next-btn" src="images/arrow-right.png" alt="arrow icon">
                         </div>
                         <div class="third-block-content">
                             <span>პედიგრი</span>
@@ -316,6 +313,10 @@
             </section>
 
              <!-- latest products -->
+             <div>
+                <img class="arrow-white" src="images/arrow-long-right.png" alt="arrow left">
+                <img class="arrow-white arrow-white-right" src="images/arrow-long-right.png" alt="arrow right">
+            </div>
             <section class="top-products-section">
                 <div class="title">
                     <h3>
@@ -410,11 +411,15 @@
                         </h4>
                         <button>პროდუქციის ნახვა</button>
                     </div>
-                    <img class="turtle-img" src="images/shutterstock_263854013.png" alt="">
+                    <img class="turtle-img" src="images/shutterstock_263854013.png" alt="turtle picture">
                 </div>
             </section>
              
             <!-- brands -->
+            <div>
+                <img class="arrow-white brands-arrow" src="images/arrow-long-right.png" alt="arrow left">
+                <img class="arrow-white arrow-white-right brands-arrow-sec" src="images/arrow-long-right.png" alt="arrow right">
+            </div>
             <section class="brands">
                 <h3 class="brands-title">ბრენდები</h3>
                 <div class="brand-imgs">
@@ -454,11 +459,11 @@
                         <li class="categories">
                             <h3>მენიუ</h3>
                             <a href="#">მთავარი</a>
-                            <a href="#">ჩვენ შესახებ</a>
+                            <a href="aboutus.html">ჩვენ შესახებ</a>
                             <a href="#">წესები და პირობებიი</a>
                             <a href="#">ავტორიზაცია</a>
                             <a href="#">რეგისტრაცია</a>
-                            <a href="#">კონტაქტი</a>
+                            <a href="contact.html">კონტაქტი</a>
                         </li>
                     </ul>
                 </div>

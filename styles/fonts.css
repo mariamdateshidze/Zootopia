@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'BPG Glaho';
+    src: url('../fonts/BPGGlaho.woff2') format('woff2'),
+        url('../fonts/BPGGlaho.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sylfaen';
+    src: url('../fonts/Sylfaen.woff2') format('woff2'),
+        url('../fonts/Sylfaen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
