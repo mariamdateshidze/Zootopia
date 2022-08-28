@@ -953,7 +953,13 @@ header{
     border-radius: 6px;
     font-family: 'BPG Glaho';
 }
+.after-btn-click{
+    display: none;
+}
 
+.after-btn-click.active{
+    display: block;
+}
 .third-block-content button:hover{
     background-color: #353333;
     transition: all .5s;
@@ -1132,6 +1138,9 @@ header{
     transition: all .5s;
 }
 
+.responsive-products{
+    display: none;
+}
 /* footer */
 footer{
     padding: 150px 100px 0px 100px;

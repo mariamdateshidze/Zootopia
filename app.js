@@ -8,6 +8,9 @@ const nextBtn2 = document.querySelector('.next-btn');
 
 const slideBtns = document.querySelectorAll('.slider-line');
 
+const moreBtn = document.querySelector("#more-prod");
+const moreProducts = document.querySelectorAll(".after-btn-click");
+
 let myInterval=null;
 let activeIndex = 0;
 
@@ -45,6 +48,7 @@ function renderSliders() {
           item.classList.remove('active');
         }
       })
+
   }
 
 function showNextSlide() {
@@ -91,3 +95,14 @@ function handleRecClick(nextIndex){
     activeIndex = nextIndex;
     renderSliders();
 };
+
+// moreBtn.addEventListener('click', () => {
+//   moreProducts.classList.toggle('active')
+//   });
+
+moreBtn.addEventListener('click', () => {
+  moreProducts.forEach((item, i) => {
+      item.classList.toggle('active');
+    
+  })
+});

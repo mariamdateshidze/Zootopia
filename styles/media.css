@@ -1,0 +1,249 @@
+@media (max-width: 1024px){
+    .small-icons{
+        display: none;
+    }
+    .burger-menu{
+        display: none;
+    }
+
+    .slider{
+        max-width: 1000px;
+        height: 280px;
+        margin: 50px 50px;
+    }
+    .slider-btns{
+        display: none;
+    }
+
+    .slider-content{
+        left: 100px;
+    }
+    .animal-photo{
+        margin-left: 450px;
+    }
+    .rabbit{
+        margin-left: 290px;
+    }
+    .slider-lines{
+        left: 290px;
+    }
+
+    .two-next-blocks{
+        flex-direction: column;
+    }
+    .green-bird{
+        z-index: 20;
+    }
+    .blue-fish{
+        margin-bottom: 20px;
+    }
+    .yellow-cat{
+        margin-left: -400px;
+    }
+    #white-fouth{
+        display: none;
+    }
+    .arrow-white-right{
+        margin-left: 900px;
+    }
+    
+    .three-box-section{
+       flex-wrap: wrap;
+    }
+    #third{
+        display: none;
+    }
+    .turtle-section{
+        max-width: 700px;
+        width: 100%;
+    }
+    .turtle-img{
+        width: 200px;
+    }
+    .categories-section{
+        flex-wrap: wrap;
+    }
+    .cont{
+        margin-top: 50px;
+    }
+    .arrow-white{
+        display: none;
+    }
+    .four-food-block{
+        flex-wrap: wrap;
+    }
+    .first-of-three{
+        margin-top: 50px;
+    }
+    .categories{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 768px){
+    .slider{
+        max-width: 600px;
+        height: 280px;
+        margin: 40px 40px;
+    }
+    .slider-content{
+        left: 100px;
+    }
+    .animal-photo{
+        margin-left: 100px;
+    }
+    .rabbit{
+        margin-left: 100px;
+    }
+    .small-boxes{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .box{
+        margin-bottom: 20px;
+    }
+    .products{
+        display: flex;
+        flex-direction: column;
+    }
+    .yellow-cat{
+        margin-left: -70px;
+        width: 500px;
+    }
+    .blue-fish{
+        margin-top: 20px;
+    }
+    .cat-picture{
+        display: none;
+    }
+    .turtle-section{
+        display: none;
+    }
+    .brand-imgs{
+        flex-wrap: wrap;
+    }
+    .brand-imgs img{
+        margin-top: 20px;
+    }
+    .white-block{
+        margin-top: 30px;
+    }
+    .title span{
+        display: none;
+    }
+    .container{
+        background-color: beige;
+    }
+}
+
+@media (max-width: 480px){
+    .slider{
+        max-width: 400px;
+        height: 280px;
+        margin: 10px;
+    }
+    .slider-content{
+        left: 30px;
+    }
+    .animal-photo{
+        margin-left: -20px;
+    }
+    .rabbit{
+        margin-left: -90px;
+    }
+    .slider-lines{
+        left: 150px;
+    }
+    .small-boxes{
+        margin: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .products{
+        padding: 0 10px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .yellow-cat{
+        margin-left: -0px;
+        width: 400px;
+    }
+    .text-cat{
+        margin-left: 150px;
+    }
+    .top-products-section{
+        padding: 80px 40px;
+        align-items: center;
+        justify-content: center;
+    }
+    .three-box{
+        padding: 80px 40px;
+        align-items: center;
+        justify-content: center;
+    }
+    .turtle-section{
+        display: block;
+        width: 300px;
+        margin: 0 50px;
+    }
+
+    .turtle-content{
+        padding: 30px;
+    }
+    .turtle-content h4{
+       font-size: 16px;
+    }
+    .turtle-img{
+        margin-left: 150px;
+        margin-top: -500px;
+    }
+    .categories-section{
+        display: none;
+    }
+    .footer-content{
+        flex-direction: column;
+        align-items: center;
+       background-color: none;
+       box-shadow: none;
+       border-radius: none;
+    }
+    footer{
+        padding: 0px;
+    }
+    .second-of-three{
+        max-width: 330px;
+    }
+    .rabbit-pic{
+        margin-left: -205px;
+        
+    }
+    .footer-content div{
+        display: none;
+    }
+
+    .latest{
+        display: none;
+    }
+
+    .responsive-products{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .responsive-products button{
+        margin-bottom: 70px;
+    }
+    .responsive-products img{
+        width: 90px;
+       margin: 0 0 40px 40px;
+    }
+   
+
+}
+
+
+@media (max-width: 320px){
+    
+}
