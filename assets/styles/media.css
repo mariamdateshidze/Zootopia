@@ -150,9 +150,7 @@
     .title span{
         display: none;
     }
-    .container{
-        background-color: beige;
-    }
+   
 }
 
 @media (max-width: 480px){
