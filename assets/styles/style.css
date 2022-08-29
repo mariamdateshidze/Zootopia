@@ -515,7 +515,9 @@ header{
     background-color: #c9c3c3;
     transition: all .5s;
 }
-
+.resp-arrrow{
+    display: none;
+}
 .arrow-white-right{
     margin-left: 1300px;
     transform: rotateY(180deg);
@@ -960,6 +962,11 @@ header{
 .after-btn-click.active{
     display: block;
 }
+
+.header-cont{
+    display: none;
+}
+
 .third-block-content button:hover{
     background-color: #353333;
     transition: all .5s;

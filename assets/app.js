@@ -2,6 +2,10 @@ const slideItems = document.querySelectorAll('.slider-item');
 const prevBtn = document.querySelector('#prev-slide-btn');
 const nextBtn = document.querySelector('#next-slide-btn');
 
+const slideItemsProd = document.querySelectorAll('.four-food-block');
+const nextBtn3 = document.querySelector('#next-arrow');
+const prevBtn3 = document.querySelector('#prev-arrow');
+
 const dogsFood = document.querySelectorAll('#pedigri');
 const prevBtn2 = document.querySelector('.prev-btn');
 const nextBtn2 = document.querySelector('.next-btn');
@@ -10,6 +14,11 @@ const slideBtns = document.querySelectorAll('.slider-line');
 
 const moreBtn = document.querySelector("#more-prod");
 const moreProducts = document.querySelectorAll(".after-btn-click");
+
+const brands = document.querySelectorAll(".brand");
+const nextBrand = document.querySelector(".resp-arrow");
+
+
 
 let myInterval=null;
 let activeIndex = 0;
@@ -48,6 +57,7 @@ function renderSliders() {
           item.classList.remove('active');
         }
       })
+  
 
   }
 
@@ -96,9 +106,6 @@ function handleRecClick(nextIndex){
     renderSliders();
 };
 
-// moreBtn.addEventListener('click', () => {
-//   moreProducts.classList.toggle('active')
-//   });
 
 moreBtn.addEventListener('click', () => {
   moreProducts.forEach((item, i) => {
@@ -106,3 +113,14 @@ moreBtn.addEventListener('click', () => {
     
   })
 });
+
+nextBrand.addEventListener('click', () => {
+  brands.forEach((item, i) => {
+    if(activeIndex === i){
+      item.classList.add('active');
+    } else {
+      item.classList.remove('active');
+    }
+  })
+    
+  });
