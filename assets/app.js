@@ -19,7 +19,6 @@ const brands = document.querySelectorAll(".brand");
 const nextBrand = document.querySelector(".resp-arrow");
 
 
-
 let myInterval=null;
 let activeIndex = 0;
 
@@ -121,6 +120,6 @@ nextBrand.addEventListener('click', () => {
     } else {
       item.classList.remove('active');
     }
-  })
-    
-  });
+})
+  
+});

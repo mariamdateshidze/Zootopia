@@ -636,12 +636,12 @@ header{
     font-family: 'BPG Glaho';
 }
 
-#dark-btn{
+.kg-btns button.active{
     background-color: #E7E7E7;
 }
 
-#dark-btn:hover{
-    background-color: #ffffff;
+.kg-btns button.active:hover{
+    background-color: #e4dada;
     transition: all .5s;
     cursor: pointer;
 }
@@ -1321,10 +1321,17 @@ footer{
     line-height: 19px;
 }
 
+.more{
+    display: none;
+}
+.more.active{
+    display: block;
+}
 #kg-btn{
     display: grid;
     grid-template-columns: auto auto auto;
 }
+
 .paragraph{
     display: flex;
     flex-direction: column;
@@ -1369,7 +1376,6 @@ footer{
     color: #111111;
     margin-left: 10px;
     width: 90px;
-
 }
 
 .black-line{
@@ -1488,4 +1494,154 @@ footer{
     background-color: rgba(245, 98, 31, 0.6);
     border-radius: 10px;
     padding: 10px;
+}
+
+/* category page */
+.order{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px 0 0;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F5621F;
+}
+.black-text{
+    color: #000000;
+    margin-right: 15px;
+}
+.products-blocks{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 26px;
+}
+
+.prices-of-category{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.cart-of-category{
+    width: 35px;
+   background-color: #74B42C;
+   border-radius: 4px;
+   padding: 8px;
+   margin-left: 85px;
+}
+
+.line-of-category{
+    position: absolute;
+    background-color: #111111;
+    width: 25px;
+    height: 1px;
+    left: 100px;
+    top: 394px;
+}
+
+.black{
+  color: #000000;
+}
+.orange{
+    background-color: #F5621F;
+}
+.dif-food{
+    width: 140px;
+    margin-left: 40px;
+}
+.dif-prices{
+    margin-top: 60px;
+}
+.dif-prices img{
+    margin-left: 120px;
+}
+
+.main-blocks{
+    display: flex;
+    padding: 0 90px 0 90px;
+}
+
+/* aside block */
+.aside-block{
+    width: 277px;
+    height: 1845px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px #597DBC0D;
+    border-radius: 10px;
+    margin-right: 26px;
+}
+.ages{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+.ages button{
+    width: 17px;
+    height: 17px;
+    border-radius: 4px;
+    background-color: #E7E7E7;
+    border: none;
+    margin-right: 10px;
+}
+.ages span{
+    font-size: 14px;
+    line-height: 17px;
+    color: #3F3F3F;
+}
+.aside-block h3{
+    font-size: 16px;
+    line-height: 19px;
+    color: #111111;
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
+
+.green-btns{
+    margin-bottom: 64px;
+}
+
+.spans-list{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.spans-list span{
+    font-size: 16px;
+    line-height: 19px;
+    color: #111111;
+    margin-bottom: 64px;
+}
+
+.filter-btn{
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background-color: #74B42C;
+    border-radius: 10px;
+    padding: 19px 60px;
+    border: none;
+    margin-left: 30px;
+}
+
+.drop-down-img{
+    margin-left: 100px;
+    margin-bottom: 58px;
+}
+
+.categories-down{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.drop-downs{
+    display: flex;
+}
+.drop-downs-imgs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.drop-downs-imgs img{
+ margin-bottom: 78px;
 }
