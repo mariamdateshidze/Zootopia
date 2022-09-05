@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="stylesheet" href="assets/styles/media.css">
     <link rel="stylesheet" href="assets/styles/fonts.css">
-    <title>category</title>
+    <title>Category</title>
 </head>
 <body>
     <header class="container">
@@ -55,6 +55,18 @@
         <div class="main-blocks">
             <!-- aside block -->
             <section  class="aside-block">
+                <div class="green-btns price-range">
+                    <h3>ფასი</h3>
+                    <div class="price-spans">
+                        <span>100₾</span>
+                        <span>500₾</span>
+                    </div>
+                    <input type="range" class="form-range" min="0" max="10" id="customRange2">
+                    <div class="prices-btns">
+                        <button>100</button>
+                        <button>500</button>
+                    </div>
+                </div>
                 <div class="green-btns">
                     <h3>ასაკი</h3>
                     <div class="ages">
@@ -66,7 +78,7 @@
                         <span>პატარა</span>
                     </div>
                     <div  class="ages">
-                        <button></button>
+                        <button class="active"></button>
                         <span>ზრდასრული</span>
                     </div>
                     <div  class="ages">
@@ -86,7 +98,7 @@
                         <span>ძაღლი</span>
                     </div>
                     <div  class="ages">
-                        <button></button>
+                        <button class="active"></button>
                         <span>კურდღელი</span>
                     </div>
                     <div  class="ages">
@@ -114,7 +126,7 @@
                         <span>ბრენდი 2</span>
                     </div>
                     <div  class="ages">
-                        <button></button>
+                        <button class="active"></button>
                         <span>ბრენდი 3</span>
                     </div>
                     <div  class="ages">
@@ -169,10 +181,10 @@
                         საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.
                     </p>
                     <div class="kg-btns">
-                        <button>600გრ.</button>
-                        <button id="dark-btn">2 კგ.</button>
-                        <button>5 კგ.</button>
-                        <button>13 კგ.</button>
+                        <button class="kg-btn-single" >600გრ.</button>
+                        <button class="kg-btn-single active">2 კგ.</button>
+                        <button class="kg-btn-single">5 კგ.</button>
+                        <button class="kg-btn-single">13 კგ.</button>
                     </div>
                     <div class="prices-of-category">
                         <span class="current-price">135₾</span>
@@ -191,7 +203,7 @@
                     </p>
                     <div class="kg-btns">
                         <button>400გრ.</button>
-                        <button id="dark-btn">8 კგ.</button>
+                        <button  class="kg-btn-single active">8 კგ.</button>
                         <button>1 შეკვრა</button>
                     </div>
                     <div class="prices-of-category">
@@ -209,7 +221,7 @@
                     </p>
                     <div class="kg-btns">
                         <button>600გრ.</button>
-                        <button id="dark-btn">2 კგ.</button>
+                        <button class="kg-btn-single active">2 კგ.</button>
                         <button>5 კგ.</button>
                         <button>13 კგ.</button>
                     </div>
@@ -221,7 +233,7 @@
                     </div>
                 </div>
 
-                <div class="white-block">
+                <div class="white-block white-block-2">
                     <a href="product.html"><img class="royal-food royal-2" src="assets/images/royal.jpg" alt="dogs food"></a>
                     <h5>Royal Canin</h5>
                     <p>
@@ -229,7 +241,7 @@
                     </p>
                     <div class="kg-btns">
                         <button>400გრ.</button>
-                        <button id="dark-btn">8 კგ.</button>
+                        <button class="kg-btn-single active">8 კგ.</button>
                     </div>
                     <div class="prices-of-category">
                         <span class=" not-in-stock">არ არის მარაგში</span>
@@ -244,7 +256,7 @@
                     </p>
                     <div class="kg-btns">
                         <button>400გრ.</button>
-                        <button id="dark-btn">8 კგ.</button>
+                        <button class="kg-btn-single active">8 კგ.</button>
                     </div>
                     <div class="prices-of-category dif-prices">
                         <span class="current-price black">135₾</span>
@@ -260,7 +272,7 @@
                     </p>
                     <div class="kg-btns">
                         <button>400გრ.</button>
-                        <button id="dark-btn">8 კგ.</button>
+                        <button class="kg-btn-single active">8 კგ.</button>
                         <button>1 შეკვრა</button>
                     </div>
                     <div class="prices-of-category">
@@ -278,7 +290,7 @@
                     </p>
                     <div class="kg-btns">
                         <button>600გრ.</button>
-                        <button id="dark-btn">2 კგ.</button>
+                        <button class="kg-btn-single active">2 კგ.</button>
                         <button>5 კგ.</button>
                         <button>13 კგ.</button>
                     </div>
@@ -299,7 +311,7 @@
                     </p>
                     <div class="kg-btns">
                         <button>400გრ.</button>
-                        <button id="dark-btn">8 კგ.</button>
+                        <button class="kg-btn-single active">8 კგ.</button>
                         <button>1 შეკვრა</button>
                     </div>
                     <div class="prices-of-category">
@@ -317,7 +329,7 @@
                     </p>
                     <div class="kg-btns">
                         <button>600გრ.</button>
-                        <button id="dark-btn">2 კგ.</button>
+                        <button class="kg-btn-single active">2 კგ.</button>
                         <button>5 კგ.</button>
                         <button>13 კგ.</button>
                     </div>
@@ -337,7 +349,7 @@
                     </p>
                     <div class="kg-btns">
                         <button>400გრ.</button>
-                        <button id="dark-btn">8 კგ.</button>
+                        <button class="kg-btn-single active">8 კგ.</button>
                     </div>
                     <div class="prices-of-category">
                         <span class=" not-in-stock">არ არის მარაგში</span>
@@ -352,7 +364,7 @@
                     </p>
                     <div class="kg-btns">
                         <button>400გრ.</button>
-                        <button id="dark-btn">8 კგ.</button>
+                        <button class="kg-btn-single active">8 კგ.</button>
                     </div>
                     <div class="prices-of-category dif-prices">
                         <span class="current-price black">135₾</span>
@@ -368,7 +380,7 @@
                     </p>
                     <div class="kg-btns">
                         <button>400გრ.</button>
-                        <button id="dark-btn">8 კგ.</button>
+                        <button class="kg-btn-single active">8 კგ.</button>
                         <button>1 შეკვრა</button>
                     </div>
                     <div class="prices-of-category">
@@ -378,6 +390,19 @@
                 </div>
             </section>
         </div>
+             
+        <div class="pages">
+            <img class="arrow-left" src="assets/images/arrow-long-right.png" alt="">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="active">4</button>
+            <button>5</button>
+            <img class="arrow-right-light" src="assets/images/arrow-long-right.png" alt="">
+            <button>142</button>
+            <img class="arrow-right" src="assets/images/arrow-long-right.png" alt="">
+        </div>
+
         <section class="categories-section">
             <div class="categories-logo">
                 <img src="assets/images/ზოოტოპია ქართული 2.png" alt="logo">
@@ -440,6 +465,6 @@
         </div>
     </footer>
 
-    <script src="assets/product.js"></script>
+    <script src="assets/category.js"></script>
 </body>
 </html>

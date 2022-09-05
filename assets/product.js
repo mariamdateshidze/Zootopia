@@ -1,19 +1,27 @@
-const kgBtns = document.querySelectorAll("#kg-btn");
-const dropDown = document.querySelectorAll('.drop-down-p')
-const more = document.querySelectorAll('.more')
+const kgBtns = document.querySelectorAll(".kg-btn-single");
+const dropDown = document.querySelector("#drop-down-p")
+const more = document.querySelector("#more")
+const cart = document.querySelector(".green-box")
+const add = document.querySelector(".add-cart")
+const added = document.querySelector(".added-cart")
 
 
-dropDown.addEventListener('click', () => {
-    console.log("dsdbsnmdm")
-    more.classList.toggle('active');
-});
-
-  
 kgBtns.forEach((kg) => {
     kg.addEventListener('click', () => {
-      console.log("djsdsjd")
-       kg.classList.toggle('active');
+      kg.classList.toggle('active');
     });
   });
 
-  
+dropDown.addEventListener('click', () => {
+  more.classList.toggle('active');
+});
+
+cart.addEventListener('click', () => {
+  add.classList.toggle('active');
+  added.classList.toggle('active')
+});
+
+
+
+
+
