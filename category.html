@@ -54,17 +54,27 @@
         </div>
         <div class="main-blocks">
             <!-- aside block -->
-            <section  class="aside-block">
+            <form  class="aside-block">
                 <div class="green-btns price-range">
                     <h3>ფასი</h3>
-                    <div class="price-spans">
-                        <span>100₾</span>
-                        <span>500₾</span>
-                    </div>
-                    <input type="range" class="form-range" min="0" max="10" id="customRange2">
-                    <div class="prices-btns">
-                        <button>100</button>
-                        <button>500</button>
+                    <div class="wrapper">
+                      
+                        <div class="slider">
+                          <div class="progress"></div>
+                        </div>
+                        <div class="range-input">
+                          <input type="range" class="range-min" min="0" max="500" value="200" step="10">
+                          <input type="range" class="range-max" min="0" max="500" value="500" step="10">
+                        </div>
+                        <div class="price-input">
+                            <div class="field">
+                              <input type="number" class="input-min" value="200">
+                            </div>
+                            
+                            <div class="field">
+                              <input type="number" class="input-max" value="500">
+                            </div>
+                          </div>
                     </div>
                 </div>
                 <div class="green-btns">
@@ -169,8 +179,8 @@
     
                     </div>
                 </div>
-                <button class="filter-btn">ფილტრაცია</button>
-            </section>
+                <button type="submit" class="filter-btn">ფილტრაცია</button>
+            </form>
             <!-- products -->
             <section class="products-blocks">
                 <div class="white-block"> 
