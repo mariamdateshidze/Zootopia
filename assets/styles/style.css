@@ -106,7 +106,7 @@ header{
     list-style: none;
  }
 /* slider */
-.slider{
+.slider-big{
     max-width: 1170px;
     height: 280px;
     background-color: #F5AD00;
@@ -187,7 +187,7 @@ header{
     opacity: 0;
 }
 
-.slider{
+.slider-big{
     position: relative;
 }
 
@@ -1434,11 +1434,14 @@ footer{
     align-items: center;
     justify-content: center;
 }
-.quantity-of-product span{
+.quantity-of-product input{
+    width: 30px;
     font-size: 24px;
     line-height: 28px;
     color: #111111;
     font-family: 'BPG Glaho';
+    background-color: #F8F8F8;
+    border: none;
 }
 
 .quantity-of-product button{
@@ -1505,7 +1508,7 @@ footer{
 .additional-info{
     display: flex;
     flex-direction: column;
-    padding: 90px;
+    padding: 90px 20px 90px 90px;
 }
 .additional-info h2{
     margin-bottom: 42px;
@@ -1515,20 +1518,10 @@ footer{
     font-family: 'BPG Glaho';
 }
 
-.rows{
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
+td{
+    padding: 40px 100px 0px 0px;
 }
 
-.listing{
-    display: flex;
-    flex-direction: column;
-}
-
-.listing span{
-    margin-top: 41px;
-}
 .light-text{
     text-align: left;
     font-size: 14px;
@@ -1543,6 +1536,7 @@ footer{
     line-height: 19px;
     color: #111111;
     font-family: 'BPG Glaho';
+    margin-right: 80px;
 }
 
 .red-backgr{
@@ -1806,12 +1800,7 @@ footer{
     transform: rotateY(180deg);
 }
    
-::selection{
-  color: #fff;
-  background: #17A2B8;
-}
 .wrapper{
-  /* width: 200px; */
   padding: 20px 25px 40px;
 
 }
@@ -1848,20 +1837,20 @@ input[type="number"]::-webkit-inner-spin-button {
   background: #ddd;
   border-radius: 5px;
 }
-.slider .progress{
+/* .slider .progress{
   height: 100%;
-  left: 60%;
-  width: 170px;
-  margin-left: -90px;
+  left: 10%;
+  width: 100px;
+  margin-left: 30px;
   right: 60%;
   position: absolute;
   border-radius: 5px;
   background: #74B42C;
-  margin-top: -70px;
-}
+  margin-top: 0px;
+} */
 .range-input{
   position: relative;
-  margin-top: -150px;
+  margin-top: 80px;
 
 }
 .range-input input{
@@ -1880,7 +1869,7 @@ input[type="range"]::-webkit-slider-thumb{
   width: 17px;
   border-radius: 50%;
   background: #74B42C;
-  margin-top: -77px;
+  margin-top: -127px;
   margin-left: 10px;
   pointer-events: auto;
   -webkit-appearance: none;
