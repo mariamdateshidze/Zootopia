@@ -1374,21 +1374,6 @@ footer{
 #more.active{
     display: block;
 }
-.drop-down{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.drop-down span{
-    color: #9C9C9C;
-    font-size: 12px;
-    line-height: 14px;
-    font-family: 'BPG Glaho';
-}
-.drop-down img{
-    width: 9px;
-    margin-top: 10px;
-}
 
 .price-content{
     width: 277px;
@@ -1555,6 +1540,9 @@ td{
     color: #F5621F;
     font-family: 'BPG Glaho';
 }
+.resp-filter{
+    display: none;
+}
 .black-text{
     color: #000000;
     margin-right: 15px;
@@ -1612,46 +1600,25 @@ td{
 /* aside block */
 .aside-block{
     width: 277px;
-    height:1930px;
+    height:2090px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 20px #597DBC0D;
     border-radius: 10px;
     margin-right: 26px;
 }
+
 .ages{
     display: flex;
     align-items: center;
-    padding-left: 40px;
-    margin-top: 10px;
-}
-.ages button{
-    width: 17px;
-    height: 17px;
-    border-radius: 4px;
-    background-color: #E7E7E7;
-    border: none;
-    margin-right: 10px;
+    margin-left: -75px;
+    margin-top: -60px;
 }
 
-.ages button:hover{
-    background-color: #90c256;
-    transition: all .5s;
-}
-
-.ages button.active{
-    background-color: #74B42C;
-}
-.ages span{
-    font-size: 14px;
-    line-height: 17px;
-    color: #3F3F3F;
-    font-family: 'BPG Glaho';
-}
 .aside-block h3{
     font-size: 16px;
     line-height: 19px;
     color: #111111;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
     padding-left: 30px;
     font-family: 'BPG Glaho';
 }
@@ -1689,15 +1656,23 @@ td{
     background-color: #6b963b;
     transition: all .5s;
 }
-.drop-down-img{
-    margin-left: 100px;
+.drop-downs{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
 
-}
-#drop-down-p{
-    background-color: #FFFFFF;
+.drop-downs select{
+    margin-bottom: 50px;
     border: none;
-    font-size: 12px;
+    font-size: 16px;
+    padding: 5px;
+    color: #111111;
 }
+.drop-downs select:active{
+    border: red;
+}
+
 
 .categories-down{
     display: flex;
@@ -1705,18 +1680,6 @@ td{
     align-items: center;
 }
 
-.drop-downs{
-    display: flex;
-}
-.drop-downs-imgs{
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-.drop-downs-imgs img{
- margin-bottom: 78px;
-}
 
 .green-btns input{
     margin-left: 30px;

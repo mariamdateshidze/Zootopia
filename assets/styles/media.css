@@ -1,12 +1,7 @@
 @media (max-width: 1024px){
-    .small-icons{
-        display: none;
-    }
-    .burger-menu{
-        display: none;
-    }
 
-    .slider{
+
+    .slider-big{
         max-width: 1000px;
         height: 280px;
         margin: 50px 50px;
@@ -88,19 +83,27 @@
     .text-content{
         margin: 100px 192px;
     }
+    /* contact page */
+    .contact-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* category */
+    .products-blocks{
+        grid-template-columns: auto auto;
+    }
+    .main-blocks{
+        display: flex;
+        padding: 0 50px 0 50px;
+    }
 
     
-/* contact page */
-.contact-section{
-    display: flex;
-    flex-direction: column;
-}
-
 
 }
 
 @media (max-width: 768px){
-    .slider{
+    .slider-big{
         max-width: 600px;
         height: 280px;
         margin: 40px 40px;
@@ -150,11 +153,55 @@
     .title span{
         display: none;
     }
-   
+   /* category */
+    .aside-block{
+        display: none;
+    }
+    .aside-block.active{
+        display: block;
+    }
+    .pages{
+        margin-left: 100px;
+        
+    }
+    .order{
+        flex-direction: column;
+        padding: 0 20px 0 0;
+    }
+    .prices-order{
+        margin-top: 30px;
+    }
+    .resp-filter{
+        display: block;
+        margin-left: 60px;
+        border: none;
+        font-size: 14px;
+        background-color: #74B42C;
+        padding: 10px;
+        border-radius: 6px;
+        color: #FFFFFF;
+    }
+    .resp-filter:hover{
+        background-color: #85b152;
+        transition: all .5s;
+    }
+    .products-blocks.active{
+        display: none;
+    }
+    .main-blocks{
+        display: flex;
+        padding: 0 50px 0 50px;
+    }
+    .header-content{
+        padding: 40px 50px;
+       
+     }
+    
+
 }
 
 @media (max-width: 480px){
-    .slider{
+    .slider-big{
         max-width: 400px;
         height: 280px;
         margin: 10px;
@@ -367,6 +414,27 @@
     .contact-section{
         margin: 100px 21px;
     }
+    /* category */
+    .pages{
+       display: none;
+        
+    }
+    .small-icons{
+        display: none;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .products-blocks{
+        grid-template-columns: auto;
+    }
+    .order li{
+        display: flex;
+        flex-direction: column;
+    }
+    .order li a{
+        margin-bottom: 5px;
+    }
 
 }
 
@@ -398,4 +466,5 @@
         margin-left: 30px;
         margin-bottom: 40px;
     }
+    /* category */
 }

@@ -3,12 +3,18 @@ const food1 = document.querySelector('.white-block');
 const food2 = document.querySelector('.white-block-2');
 const filterBtn = document.querySelector('.filter-btn');
 
+const filterBlock = document.querySelector('.resp-filter');
+const asideBlock = document.querySelector('.aside-block');
+const products = document.querySelector('.products-blocks');
+
 const pages = document.querySelectorAll('.pages button');
 
 const rangeInput = document.querySelectorAll(".range-input input"),
 priceInput = document.querySelectorAll(".price-input input"),
 range = document.querySelector(".slider .progress");
+
 let priceGap = 100;
+
 
 priceInput.forEach(input =>{
     input.addEventListener("input", e =>{
@@ -61,4 +67,11 @@ titles.forEach((title) => {
 filterBtn.addEventListener('click', () => {
     food1.classList.toggle('active')
     food2.classList.toggle('active')
+    products.classList.remove('active')
+    asideBlock.classList.remove('active')
   });
+
+filterBlock.addEventListener('click', () => {
+    asideBlock.classList.toggle('active')
+    products.classList.toggle('active')
+});
