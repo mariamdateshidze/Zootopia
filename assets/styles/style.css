@@ -13,6 +13,10 @@
 body{
     background-color: #FAFAFA;
 }
+#drop-down-p{
+    border: none;
+    background-color: white;
+}
 
 /* header */
 header{
@@ -1308,11 +1312,9 @@ footer{
     width: 55px;
     margin-bottom: 10px;
 }
-
-.images{
-    display: flex;
-    align-items: center;
-}
+ .resp-title{
+    display: none;
+ }
 .main-image{
     width: 378px;
     margin-left: 26px;
@@ -1348,6 +1350,10 @@ footer{
     margin-left: 6px;
     font-family: 'BPG Glaho';
 }
+.images{
+    display: flex;
+    align-items: center;
+}
 .paragraph-content{
     margin-top: 30px;
     color: #111111;
@@ -1376,6 +1382,7 @@ footer{
 }
 
 .price-content{
+    position: relative;
     width: 277px;
     height: 256px;
     border-radius: 10px;
@@ -1409,6 +1416,7 @@ footer{
     right: 106px;
 }
 .quantity-of-product{
+    position: relative;
     width: 217px;
     height:54px ;
     background-color:#F8F8F8 ;
@@ -1419,14 +1427,18 @@ footer{
     align-items: center;
     justify-content: center;
 }
-.quantity-of-product input{
-    width: 30px;
+.form-field input{
+    position: absolute;
+    width: 60px;
     font-size: 24px;
     line-height: 28px;
     color: #111111;
     font-family: 'BPG Glaho';
     background-color: #F8F8F8;
     border: none;
+    right: 80px;
+    top: 127px;
+
 }
 
 .quantity-of-product button{
@@ -1481,6 +1493,7 @@ footer{
     height: 250px;
     object-fit: contain;
     margin-left: 70px;
+    margin-top: 50px;
 }
 
 .third-block{
@@ -1506,6 +1519,11 @@ footer{
 td{
     padding: 40px 100px 0px 0px;
 }
+.rows{
+    display: flex;
+    flex-direction: row;
+ }
+
 
 .light-text{
     text-align: left;
