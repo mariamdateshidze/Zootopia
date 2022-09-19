@@ -29,7 +29,9 @@ header{
     border-radius: 0px 0px 50px 50px;
     box-shadow: 0px 0px 10px #597DBC0D;
 }
-
+.languages-resp{
+    display: none;
+}
 .burger-menu img{
     width: 30px;
  }

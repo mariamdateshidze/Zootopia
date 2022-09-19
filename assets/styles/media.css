@@ -209,7 +209,7 @@
         padding: 0 30px 0 30px;
     }
     .header-content{
-        padding: 40px 50px;
+        padding: 40px 10px;
        
      }
      .listing{
@@ -233,6 +233,9 @@
         grid-template-columns: auto auto;
     }
     
+    #thirteen{
+        display: none;
+    }
 
 }
 
@@ -531,6 +534,14 @@
 
     .footer-content div{
         margin-bottom: 60px;
+    }
+
+    .languages-resp{
+        display: block;
+        font-family: 'Sylfaen';
+    }
+    .eng{
+        color: #6E6E6E;
     }
 
 }
