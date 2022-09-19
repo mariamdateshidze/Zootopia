@@ -1631,6 +1631,9 @@ td{
     margin-left: -75px;
     margin-top: -60px;
 }
+.ages [type="checkbox"]{
+    margin-right: -50px;
+}
 
 .aside-block h3{
     font-size: 16px;
