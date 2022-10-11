@@ -33,6 +33,7 @@ header{
 .languages-resp{
     display: none;
 }
+
 .burger-menu img{
     width: 30px;
  }
@@ -324,10 +325,10 @@ header{
 }
 
 .box-1 span{
-    color: #74B42C;
+    color: #3b6e00;
 }
 .box-2 span{
-    color: #F5621F;
+    color: #ad3903;
 }
 
 .box-3{
@@ -337,7 +338,7 @@ header{
     background-color: rgba(60, 171, 224, 0.2);
 }
 .box-3 span{
-   color: #3CABE0;
+   color: #005f8b;
 }
 
 .box-4{
@@ -349,7 +350,7 @@ header{
 
 }
 .box-4 span{
-   color: #ab0bb9;
+   color: #b000c0;
 }
 
 /* products for animals */
@@ -393,7 +394,7 @@ header{
     font-family: 'Sylfaen';
 }
 
-#big-font{
+.big-font{
     font-size: 24px;
     line-height: 22px;
     margin-top: 6px;
