@@ -389,6 +389,10 @@ header{
     margin-top: 72px;
   
 }
+.div-title{
+    font-size: 19px;
+    margin-bottom: 8px;
+}
 #smaller-font{
     font-size: 18px;
     line-height: 22px;
