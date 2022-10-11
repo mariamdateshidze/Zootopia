@@ -29,6 +29,7 @@ header{
     border-radius: 0px 0px 50px 50px;
     box-shadow: 0px 0px 10px #597DBC0D;
 }
+
 .languages-resp{
     display: none;
 }
@@ -1823,17 +1824,7 @@ input[type="number"]::-webkit-inner-spin-button {
   background: #ddd;
   border-radius: 5px;
 }
-/* .slider .progress{
-  height: 100%;
-  left: 10%;
-  width: 100px;
-  margin-left: 30px;
-  right: 60%;
-  position: absolute;
-  border-radius: 5px;
-  background: #74B42C;
-  margin-top: 0px;
-} */
+
 .range-input{
   position: relative;
   margin-top: 80px;

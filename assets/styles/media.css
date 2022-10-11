@@ -9,6 +9,15 @@
     .slider-btns{
         display: none;
     }
+    li{
+        display: flex;
+        flex-wrap: wrap;
+    }
+     
+    a{
+
+        margin-top: 40px;
+    }
 
     .slider-content{
         left: 100px;
@@ -26,6 +35,7 @@
     .two-next-blocks{
         flex-direction: column;
     }
+    
     .green-bird{
         z-index: 20;
     }
