@@ -159,8 +159,8 @@ header{
     margin-top: 100px;
 }
 .dog{
-    width: 350px;
-    margin-top: -30px;
+    width: 320px;
+    margin-top: -130px;
     margin-left: 600px;
 }
 .rabbit{
@@ -368,13 +368,13 @@ header{
 
 .small-dog{
     width: 220px;
-    margin-top: -20px;
+    margin-top: -77px;
     margin-left: 120px;
 }
 
 .cat-picture{
-    width: 200px;
-    margin-top: -200px;
+    width: 130px;
+    margin-top: -170px;
     margin-left: 500px;
 }
 
@@ -387,6 +387,7 @@ header{
     color: #FFFFFF;
     margin-left: 40px;
     margin-top: 72px;
+  
 }
 #smaller-font{
     font-size: 18px;
