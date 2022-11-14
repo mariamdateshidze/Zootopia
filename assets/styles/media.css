@@ -13,7 +13,9 @@
         display: flex;
         flex-wrap: wrap;
     }
-     
+    .header-content{
+        padding: 10px 100px;
+     }
     a{
 
         margin-top: 40px;
@@ -128,6 +130,9 @@
         max-width: 600px;
         height: 280px;
         margin: 40px 40px;
+    }
+    .logo-of-zoo{
+        margin-top: -70px;
     }
     .slider-content{
         left: 100px;
